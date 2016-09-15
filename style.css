@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box:
+}
+
+  body {
+  font-family: "Avenir",serif;
+  margin:0;
+  background-color: #FBF9F1;
+}
+
+.block 1 p {
+  line-height: 1.25;
+  background-color:white;
+  margin: auto;
+  font-family: "Geneva", serif;
+}
+
+.block 2 p {
+  line-height: 1.25;
+  background-color:white;
+  font-family: "Geneva", serif;
+}
+
+.block 3 p{
+  line-height: 1.25;
+  background-color: white;
+  font-family: "Geneva", serif;
+}
+
+.block 4 p{
+  color: #66CC99;
+  font-family: "Avenir";
+}
+.block 5 p {
+  color: gray;
+  font-family: "Avenir";
+}
+.block 6 p {
+  color: gray;
+  font-family: "Avenir";
+}
+.block 7 p {
+  color: gray;
+  font-family: "Avenir";
+}
+.block 8 p {
+  color: gray;
+  font-family: "Avenir";
+}
+.block 9 p {
+  color: gray;
+  font-family: "Avenir";
+}
+h4 {
+  font-size: 1px;
+  color: white;
+}
