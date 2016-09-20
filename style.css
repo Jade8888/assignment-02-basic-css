@@ -1,57 +1,70 @@
 *{
-  box-sizing: border-box:
+  box-sizing: border-box;
 }
 
-  body {
-  font-family: "Avenir",serif;
+img{
+  display: block;
+  width: 100%;
+}
+
+body {
   margin:0;
+  font-family:Georgia, Geneva;
+}
+/* styling the top heading*/
+.article-layout h2{
+  font-size:1.25rem;
+  font-weight: 300;
+}
+.company {
+  text-decoration: underline;
+  font-weight: 300;
+
+}
+.monotype {
+  background-color: #333;
+  color: #FBF9F1;
+  font-weight: 400;
+  font-family: Georgia;
+  font-size:1.25rem;
+}
+
+.article-layout {
   background-color: #FBF9F1;
+  font-family: Georgia;
+  width: 800px;
+  padding-left: 70px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.block 1 p {
-  line-height: 1.25;
-  background-color:white;
-  margin: auto;
-  font-family: "Geneva", serif;
+.article-layout h1{
+  font-size : 48px;
+  font-weight: 400;
+  font-family: monospace;
+}
+.blue-bold {
+  font-weight:bold;
+  color: #b5ccfd;
+}
+.list {
+  font-weight: 600;
+  margin:0;
+  padding: 0;
+
 }
 
-.block 2 p {
-  line-height: 1.25;
-  background-color:white;
-  font-family: "Geneva", serif;
+ul li{
+  display: block;
+  fonts: Avenir;
+  color: `#66CC99`
+
 }
 
-.block 3 p{
-  line-height: 1.25;
-  background-color: white;
-  font-family: "Geneva", serif;
-}
-
-.block 4 p{
-  color: #66CC99;
-  font-family: "Avenir";
-}
-.block 5 p {
-  color: gray;
-  font-family: "Avenir";
-}
-.block 6 p {
-  color: gray;
-  font-family: "Avenir";
-}
-.block 7 p {
-  color: gray;
-  font-family: "Avenir";
-}
-.block 8 p {
-  color: gray;
-  font-family: "Avenir";
-}
-.block 9 p {
-  color: gray;
-  font-family: "Avenir";
-}
-h4 {
-  font-size: 1px;
-  color: white;
+.images img{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  font-family: : Georgia & Geneva
 }
